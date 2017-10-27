@@ -1,6 +1,6 @@
 # Accessing Web APIs from R
 
-These are some resources for accessing web APIs from R.
+Resources for accessing web APIs from R.
 
 [Using Web APIs from R](https://www.rstudio.com/resources/videos/using-web-apis-from-r/)
 
@@ -26,7 +26,7 @@ Where **your.domain.name** is the domain of the organisation you're sending requ
 Follow the examples in [this httr guide](https://cran.r-project.org/web/packages/httr/vignettes/quickstart.html).
 
 ### Step 4a - Get a key
-Some APIs require authentication. This may simply involve emailing whoever looks after the API and requesting a key (usually a jumbled string of letters and numbers). Or it may mean subscribing to the API as a paid service. Your organisation may already subscribe without you knowing it so it's best to check with whoever knows these things.
+Some APIs require authentication. This may simply involve emailing whoever looks after the API and requesting a key (usually a jumbled string of letters and numbers). Or it may mean subscribing to the API as a paid service. Your organisation may already subscribe without you knowing so it's best to check with whoever knows these things.
 
 If you have a key save it in your .Renviron file like this:
 
