@@ -12,7 +12,7 @@ Resources for accessing web APIs from R.
 
 ## Quick Start guide
 
-This informal guide is written from experience using the [Care Opinion API](https://www.careopinion.org.uk/info/api-v2) while working for NHS National Services Scotland ([repo if you're curious](https://github.com/jsphdms/care-opinion-api)). Most of the steps are generic however some details may differ (e.g. domain names and operating systems).
+This informal guide is written from experience using the [Care Opinion API](https://www.careopinion.org.uk/info/api-v2) while working for NHS National Services Scotland ([the repo](https://github.com/jsphdms/care-opinion-api) if you're curious). Most of the steps are generic however some details may differ (e.g. domain names and operating systems).
 
 ### Step 1
 Find your .Renviron file. If you're on Windows this is usually in your Documents folder.
