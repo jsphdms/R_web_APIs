@@ -12,6 +12,8 @@ Resources for accessing web APIs from R.
 
 ## Quick Start guide
 
+This informal guide is written from experience using the [Care Opinion API](https://www.careopinion.org.uk/info/api-v2) while working for NHS National Services Scotland ([repo if you're curious](https://github.com/jsphdms/care-opinion-api)). Most of the steps are generic however some details may differ (e.g. domain names and operating systems).
+
 ### Step 1
 Find your .Renviron file. If you're on Windows this is usually in your Documents folder.
 
@@ -46,10 +48,10 @@ Here's an example of a documented API: https://www.careopinion.org.uk/info/api-v
 Some APIs aren't documented. These are best avoided unless you are comfortable with APIs. That said - using undocumented APIs isn't unheard of. [Here's an example](http://enpiar.com/2017/08/11/one-hour-package/) of someone wrapping an undocumented API with an R package.
 
 ### Step 4c - Start small
-First focus on submitting a minimal GET request that results in a 200 (successful) status code in your response. Don't worry about anything else just yet.
+First focus on submitting a minimal GET request that results in a 200 (successful) status code in your response.
 
 ### Step 4d - Build gradually
-Gradually build up the complexity (testing while you go) until you have what you need. Don't infer success from the absence of an error message - check you are getting real data.
+Once you have a 200 status code gradually build up the complexity until you have what you need. Check if you're getting real data as you go. Don't infer success from the absence of an error message.
 
 ### Step 4e - Tidy and analyse
 Congratulations! You have completed the **import** part of this process:
