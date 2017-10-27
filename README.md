@@ -51,7 +51,7 @@ Some APIs aren't documented. These are best avoided unless you are comfortable w
 First focus on submitting a minimal GET request that results in a 200 (successful) status code in your response.
 
 ### Step 4d - Build gradually
-Once you have a 200 status code gradually build up the complexity until you have what you need. Check if you're getting real data as you go. Don't infer success from the absence of an error message.
+Once you have a 200 status code gradually build up the complexity of your script until you have what you need. For example some APIs have caps on how much data they will return. You may need to write a loop and aggregate the responses. Keep checking the data as you go. Don't infer success from the absence of an error message.
 
 ### Step 4e - Tidy and analyse
 Congratulations! You have completed the **import** part of this process:
