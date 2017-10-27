@@ -10,6 +10,8 @@ Resources for accessing web APIs from R.
 
 [HTTP: The Protocol Every Web Developer Must Know](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
 
+[What is a Proxy Server?](https://www.youtube.com/watch?v=qU0PVSJCKcs)
+
 ## Quick Start guide
 
 This informal guide is written from experience using the [Care Opinion API](https://www.careopinion.org.uk/info/api-v2) while working for NHS National Services Scotland ([the repo](https://github.com/jsphdms/care-opinion-api) if you're curious). Most of the steps are generic however some details may differ (e.g. domain names and operating systems).
